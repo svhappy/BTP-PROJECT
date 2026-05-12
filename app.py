@@ -2,7 +2,10 @@
 # coding: utf-8
 
 # In[1]:
+import streamlit as st
 
+st.title("ECDM Dashboard")
+st.write("Dashboard is running successfully")
 
 import numpy as np
 import pandas as pd
