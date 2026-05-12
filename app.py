@@ -721,11 +721,11 @@ results = analyze_ecdm_process(r"v1.csv", max_gap=0.002)
 
 
 import os
-
-#folder = r"C:\ECDM project\sample"
+folder = "."
+folder = r"C:\ECDM project\sample"
 
 labels = {}
-
+folder = "."
 for file in os.listdir(folder):
     if file.endswith(".csv"):
         path = os.path.join(folder, file)
@@ -767,7 +767,7 @@ labels = {
 }
 
 dataset = []
-
+folder = "."
 for file in os.listdir(folder):
     if file.endswith(".csv") and file in labels:
         path = os.path.join(folder, file)
