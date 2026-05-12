@@ -1041,7 +1041,6 @@ get_ipython().system('python -m streamlit run app.py')
 # In[ ]:
 
 
-streamlit run yourscript.py
 
 
 # In[ ]:
